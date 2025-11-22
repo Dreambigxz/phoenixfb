@@ -1,6 +1,6 @@
 {
-  "name": "FBS",
-  "short_name": "FBS",
+  "name": "Phoenix",
+  "short_name": "Phoenix",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
