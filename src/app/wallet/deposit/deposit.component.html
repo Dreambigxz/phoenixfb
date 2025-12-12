@@ -58,8 +58,8 @@
               </div>
               <div *ngIf="walletService.selectedMode === 'USD' || walletService.selectedMode === 'TRON'" class="alert alert-info d-flex  align-items-center gap-1 mt-5" role="alert">
                 <i class="ti ti-alert-triangle fs-5 text-warning"></i>
-                <span class="color" *ngIf="walletService.selectedMode === 'USD'">Send only <strong>USDT (TRC20)</strong> to this address.</span>
-                <span class="color" *ngIf="walletService.selectedMode === 'TRON'">Send only <strong>TRON</strong> to this address.</span>
+                <span class="color" *ngIf="storeData.store['deposit'][0].method === 'USD'">Send only <strong>USDT (TRC20)</strong> to this address.</span>
+                <span class="color" *ngIf="storeData.store['deposit'][0].method === 'TRON'">Send only <strong>TRON</strong> to this address.</span>
               </div>
 
               <div class="qr-code text-center mt-3">
